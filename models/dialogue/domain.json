@@ -11,6 +11,7 @@
     "prev_utter_greet",
     "prev_utter_get_pizza_size",
     "prev_utter_get_pizza_toppings",
+    "prev_utter_ordering_pizza",
     "prev_action_order_pizza"
   ]
 }

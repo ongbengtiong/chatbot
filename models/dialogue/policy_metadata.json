@@ -2,11 +2,18 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "toppings",
         "size"
       ]
     },
     "action_order_pizza": {
       "slots": []
+    },
+    "null": {
+      "slots": [
+        "toppings",
+        "size"
+      ]
     }
   },
   "rasa_core": "0.8.5",

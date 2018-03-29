@@ -20,8 +20,11 @@ templates:
         - 'What pizza size?'
     utter_get_pizza_toppings:
         - 'What toppings would you like on your pizza?'
+    utter_ordering_pizza:
+        - 'Ordering your {size} pizza with {toppings}'
 actions:
     - utter_greet
     - utter_get_pizza_size
     - utter_get_pizza_toppings
+    - utter_ordering_pizza
     - actions.ActionOrderPizza

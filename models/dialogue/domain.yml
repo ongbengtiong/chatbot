@@ -3,11 +3,13 @@ action_names:
 - utter_greet
 - utter_get_pizza_size
 - utter_get_pizza_toppings
+- utter_ordering_pizza
 - action_order_pizza
 actions:
 - utter_greet
 - utter_get_pizza_size
 - utter_get_pizza_toppings
+- utter_ordering_pizza
 - actions.ActionOrderPizza
 config:
   store_entities_as_slots: true
@@ -32,4 +34,6 @@ templates:
   utter_greet:
   - text: Hello, how can I help you?
   - text: Hi, I am here to help.
+  utter_ordering_pizza:
+  - text: Ordering your {size} pizza with {toppings}
 topics: []
