@@ -1,0 +1,57 @@
+name: chatbot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates=2018.1.18=0
+  - certifi=2018.1.18=py36_0
+  - cymem=1.31.2=py36_vc14_0
+  - murmurhash=0.28.0=py36_vc14_0
+  - openssl=1.0.2n=vc14_0
+  - preshed=1.0.0=py36_vc14_0
+  - python-crfsuite=0.9.2=py36_vc14_0
+  - spacy=2.0.10=py36_vc14_0
+  - thinc=6.10.2=py36_vc14_0
+  - asn1crypto=0.24.0=py36_0
+  - cffi=1.11.5=py36h945400d_0
+  - chardet=3.0.4=py36h420ce6e_1
+  - cryptography=2.2.1=py36hfa6e2cd_0
+  - cytoolz=0.8.2=py36h547e66e_0
+  - dill=0.2.7.1=py36hf552773_0
+  - ftfy=4.4.3=py36hb6b3982_0
+  - html5lib=1.0.1=py36h047fa9f_0
+  - icc_rt=2017.0.4=h97af966_0
+  - idna=2.6=py36h148d497_1
+  - intel-openmp=2018.0.0=8
+  - mkl=2018.0.2=1
+  - mkl_fft=1.0.1=py36h452e1ab_0
+  - mkl_random=1.0.1=py36h9258bd6_0
+  - msgpack-numpy=0.4.1=py36h93564ae_0
+  - msgpack-python=0.4.8=py36h58b1e9d_0
+  - numpy=1.14.2=py36h5c71026_1
+  - pip=9.0.1=py36_5
+  - plac=0.9.6=py36_0
+  - pycparser=2.18=py36hd053e01_1
+  - pyopenssl=17.5.0=py36h5b7d817_0
+  - pyreadline=2.1=py36h094d952_1
+  - pysocks=1.6.8=py36_0
+  - python=3.6.4=h0c2934d_3
+  - regex=2017.11.09=py36ha090894_0
+  - requests=2.18.4=py36h4371aae_1
+  - setuptools=38.5.1=py36_0
+  - six=1.11.0=py36h4db2310_1
+  - termcolor=1.1.0=py36_1
+  - toolz=0.9.0=py36_0
+  - tqdm=4.19.8=py36_0
+  - ujson=1.35=py36_0
+  - urllib3=1.22=py36h276f60a_0
+  - vc=14=h0510ff6_3
+  - vs2015_runtime=14.0.25123=3
+  - wcwidth=0.1.7=py36h3d5aa90_0
+  - webencodings=0.5.1=py36h67c50ae_1
+  - wheel=0.30.0=py36h6c3ec14_1
+  - win_inet_pton=1.0.1=py36he67d7fd_1
+  - wincertstore=0.2=py36h7fe50ca_0
+  - wrapt=1.10.11=py36he5f5981_0
+prefix: C:\Users\bengt\Anaconda3\envs\chatbot
+
