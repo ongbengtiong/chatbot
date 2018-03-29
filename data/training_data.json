@@ -1,0 +1,173 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },	  
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },		  
+      {
+        "text": "I want to order large pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "large",
+            "entity": "size"
+          }
+        ]
+      },
+      {
+        "text": "I want to order pizza with olives",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "olives",
+            "entity": "toppings"
+          }
+        ]
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "get me a large plain pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "large",
+            "entity": "size"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "plain",
+            "entity": "toppings"
+          }
+        ]
+      },
+      {
+        "text": "small",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "small",
+            "entity": "size"
+          }
+        ]
+      },
+      {
+        "text": "olives",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "olives",
+            "entity": "toppings"
+          }
+        ]
+      },
+      {
+        "text": "cheese",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "cheese",
+            "entity": "toppings"
+          }
+        ]
+      },
+      {
+        "text": "one large ham pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "large ",
+            "entity": "size"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "ham",
+            "entity": "toppings"
+          }
+        ]
+      },
+      {
+        "text": "A small pizza with olives",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 2,
+            "end": 8,
+            "value": "small",
+            "entity": "size"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "olives",
+            "entity": "toppings"
+          }
+        ]
+      },
+      {
+        "text": "give me a large ham pizza",
+        "intent": "order_pizza",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "large ",
+            "entity": "size"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "ham",
+            "entity": "toppings"
+          }
+        ]
+      },
+      {
+        "text": "pizza please",
+        "intent": "order_pizza",
+        "entities": []
+      }
+    ]
+  }
+}
